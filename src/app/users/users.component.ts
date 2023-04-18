@@ -17,8 +17,8 @@ export class UsersComponent {
   constructor(private userService : UsersService) {}
 
   ngOnInit() : void{
-    this.getUsers()
-    this.getUser()
+    this.getUsers();
+    this.getUser();
   }
 
   getUsers() : void{
